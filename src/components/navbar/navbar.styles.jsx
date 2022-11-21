@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavBarContainer = styled.div`
-  height: 12vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   padding: 0 6rem;
@@ -11,7 +11,11 @@ export const NavBarContainer = styled.div`
   color: var(--color-primary-darker);
   position: sticky;
   z-index: 10;
-  top: 0;
+  top: 0px;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 export const NavLinks = styled.ul`

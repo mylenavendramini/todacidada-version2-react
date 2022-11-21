@@ -5,26 +5,30 @@ export const StyledBurger = styled.button`
 
   @media only screen and (max-width: 800px) {
     display: flex;
-    position: absolute;
-    top: 2.7rem;
+    position: sticky;
+    top: 2.2rem;
     left: 1.8rem;
     flex-direction: column;
     justify-content: space-around;
-    width: 2rem;
+    width: 1rem;
     height: 30px;
     background: transparent;
     border: none;
     cursor: pointer;
-    z-index: 13;
+    z-index: 25;
 
     &:focus {
       outline: none;
     }
 
+    &:hover {
+      transform: scale(1.2);
+    }
+
     div {
       width: 30px;
       height: 5px;
-      background-color: white;
+      background-color: var(--color-primary-darker);
       border-radius: 10px;
       transition: all 0.3s linear;
       position: relative;
