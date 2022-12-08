@@ -632,22 +632,20 @@ function CargaMental() {
             <p>
               Contudo, o objetivo da Toda Cidadã é tornar nossos cursos
               acessíveis para que o maior número de mulheres participe! Por
-              isso, <font color="#d83c23">somente até o dia 18/07</font>,
-              estamos disponibilizando a Imersão da sobrecarga feminina no
+              isso, estamos disponibilizando a Imersão da sobrecarga feminina no
               contexto doméstico por apenas
             </p>
             <h5>
-              <font size="7">12 parcelas de R$ 19,66 ou R$197,00 à vista!</font>
+              <font size="7">
+                12 parcelas de R$ 19,66* ou R$197,00 à vista!
+              </font>
             </h5>
-            <p>
-              As vagas são limitadas e esse desconto de R$580,00 só vale até
-              segunda-feira, dia 18/07. Inscreva-se já e garanta a sua vaga, vai
-              ser incrível!
-            </p>
-            <h4>
+
+            {/*<h4>
               Bolsas sociais: mães solos, mulheres pretas, pardas e indígenas -
               preencher formulário{" "}
-            </h4>
+                  </h4>*/}
+            <p>* Condições de parcelamento no link de inscrição.</p>
           </div>
         </div>
       </section>

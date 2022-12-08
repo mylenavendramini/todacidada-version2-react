@@ -750,7 +750,7 @@ function AdvocaciaFeminista() {
                 className="btn--text--subscribe"
                 target="_blank"
                 rel="noreferrer"
-                href="https://pay.hotmart.com/Q68651321L"
+                href="https://hotmart.com/pt-br/marketplace/produtos/por-uma-advocacia-feminista-curso-completo/Q68651321L"
               >
                 INSCREVA-SE AGORA
               </a>
@@ -763,78 +763,17 @@ function AdvocaciaFeminista() {
         <div className="course-test">
           <div className="course__feature-test">
             <h5>Quanto você vai investir?</h5>
-            <p>
-              Se fosse para colocar na ponta do lápis o valor por hora de cada
-              profissional do curso, seria:
-            </p>
-          </div>
-        </div>
-        <div className="price-test">
-          <div className="description__feature-test">
-            <p>
-              Aulas (2h) com a psicóloga Maria Bertho, Mestre em Psicologia com
-              ênfase de pesquisa sobre as desigualdades de gênero no contexto
-              familiar
-            </p>
-            <p>
-              Aulas (2h) com a psicóloga Stephani Pinho, Psicanalista com
-              formação em Saúde Mental
-            </p>
-            <p>
-              Roda de conversa com participação da Gabi Toso, fundadora e
-              presidente da Toda Cidadã
-            </p>
-          </div>
-          <div className="description__feature-test">
-            <h4>R$259,00</h4>
-            <br />
-            <h4>R$259,00</h4>
-            <h4>R$259,00</h4>
-            <br />
-            <h5>Total: R$777,00</h5>
-          </div>
-        </div>
-
-        <div className="mobile">
-          <div className="price-test-mobile">
-            <p>
-              Aulas (2h) com a psicóloga Maria Bertho, Mestre em Psicologia com
-              ênfase de pesquisa sobre as desigualdades de gênero no contexto
-              familiar.....<font color="d#83c23">R$259,00</font>
-              <br />
-              Aulas (2h) com a psicóloga Stephani Pinho, Psicanalista com
-              formação em Saúde Mental.....<font color="d#83c23">R$259,00</font>
-              <br />
-              Roda de conversa com participação da Gabi Toso, fundadora e
-              presidente da Toda Cidadã.....
-              <font color="d#83c23">R$259,00</font>
-              <br /> <br />
-              <font color="d#83c23">Total: R$777,00</font>
-            </p>
           </div>
         </div>
 
         <div className="course-test">
           <div className="course__feature-test">
-            <p>
-              Contudo, o objetivo da Toda Cidadã é tornar nossos cursos
-              acessíveis para que o maior número de mulheres participe! Por
-              isso, <font color="#d83c23">somente até o dia 18/07</font>,
-              estamos disponibilizando a Imersão da sobrecarga feminina no
-              contexto doméstico por apenas
-            </p>
             <h5>
-              <font size="7">12 parcelas de R$ 19,66 ou R$197,00 à vista!</font>
+              <font size="7">
+                12 parcelas de R$ 39,62* ou R$397,00 à vista!
+              </font>
             </h5>
-            <p>
-              As vagas são limitadas e esse desconto de R$580,00 só vale até
-              segunda-feira, dia 18/07. Inscreva-se já e garanta a sua vaga, vai
-              ser incrível!
-            </p>
-            <h4>
-              Bolsas sociais: mães solos, mulheres pretas, pardas e indígenas -
-              preencher formulário{" "}
-            </h4>
+            <p>* Condições de parcelamento no link de inscrição.</p>
           </div>
         </div>
       </section>
@@ -847,7 +786,7 @@ function AdvocaciaFeminista() {
                 className="btn--text--subscribe"
                 target="_blank"
                 rel="noreferrer"
-                href="https://pay.hotmart.com/Q68651321L"
+                href="https://hotmart.com/pt-br/marketplace/produtos/por-uma-advocacia-feminista-curso-completo/Q68651321L"
               >
                 INSCREVA-SE AGORA
               </a>
@@ -883,7 +822,7 @@ function AdvocaciaFeminista() {
                 className="btn--text--subscribe"
                 target="_blank"
                 rel="noreferrer"
-                href="https://pay.hotmart.com/Q68651321L"
+                href="https://hotmart.com/pt-br/marketplace/produtos/por-uma-advocacia-feminista-curso-completo/Q68651321L"
               >
                 INSCREVA-SE AGORA
               </a>

@@ -420,14 +420,13 @@ h5 {
 }
 
 .price-test h4 {
-  font-size: 1.7rem;
-  margin-top: 10px;
-  top: 10px;
+  /* font-size: 1.7rem; */
   letter-spacing: 1px;
   color: var(--color-primary-darker);
   font-family: "Montserrat";
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   text-align: left;
+  font-size: 2rem;
 }
 
 .description__icon {
