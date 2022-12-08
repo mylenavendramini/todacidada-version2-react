@@ -74,7 +74,7 @@ export const CourseContainer = styled.div`
     content: "";
     background-image: url(${img});
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 30%;
     background-position: center;
     content: "";
     opacity: 0.1;

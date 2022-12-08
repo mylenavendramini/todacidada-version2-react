@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   padding: 1rem;
   background-color: var(--color--primary-second);
+  bottom: 0;
 `;
 
 export const Logo = styled.div`

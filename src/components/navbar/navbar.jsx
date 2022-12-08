@@ -34,7 +34,7 @@ function Navbar() {
             </Link>
           </NavItem>
           <NavItem>
-            <Link onClick={scrollToTop} to="/cargamental">
+            <Link onClick={scrollToTop} to="/cursos">
               Nossos cursos
             </Link>
           </NavItem>

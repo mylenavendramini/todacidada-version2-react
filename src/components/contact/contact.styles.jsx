@@ -4,6 +4,7 @@ export const ContactContainer = styled.div`
   justify-content: center;
   padding: 3rem;
   justify-content: center;
+  margin: 8rem auto;
 
   h5 {
     text-transform: uppercase;
