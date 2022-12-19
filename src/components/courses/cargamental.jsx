@@ -149,15 +149,7 @@ function CargaMental() {
               <h5>A Comunidade da Imersão</h5>
               <p>
                 <font color="#d83c23">
-                  <b>Facilitadora:</b> Maria Bertho (
-                  <a
-                    href="https://www.instagram.com/marialicebertho/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @marialicebertho
-                  </a>
-                  )
+                  <b>Facilitadora:</b> Isabela Pontes
                 </font>
               </p>
               <p>
@@ -325,15 +317,7 @@ function CargaMental() {
               <h5>A Comunidade da Imersão</h5>
               <p>
                 <font color="#d83c23">
-                  <b>Facilitadora:</b> Maria Bertho (
-                  <a
-                    href="https://www.instagram.com/marialicebertho/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @marialicebertho
-                  </a>
-                  )
+                  <b>Facilitadora:</b> Isabela Pontes
                 </font>
               </p>
 

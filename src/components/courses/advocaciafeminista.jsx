@@ -850,7 +850,7 @@ function AdvocaciaFeminista() {
             <p>O curso sairá de R$ 397,00 por</p>
             <h5>
               <font size="7">
-                12 parcelas de R$ 24,75* ou R$ 297,00 à vista!
+                12 parcelas de R$ 29,64* ou R$ 297,00 à vista!
               </font>
             </h5>
 
