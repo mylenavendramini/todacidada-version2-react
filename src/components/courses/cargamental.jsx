@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Header } from "./cargamental.styles";
+import { Header, Main } from "./cargamental.styles";
 
 function CargaMental() {
   function tabbedComponent(e) {
@@ -20,43 +20,45 @@ function CargaMental() {
       <Header>
         <img
           type="image/pnj"
-          src="/capa-cargamental.png"
+          src="/cargamental-banner.png"
           alt="capa-cargamental"
         />
       </Header>
 
       <section>
-        <div className="course-test">
-          <div className="course__feature-test">
-            <h4>
-              <font size="5">
-                <i>Mulher</i>, me responde essas perguntas:
-              </font>
-            </h4>
-            <p>
-              Você se sente constantemente <i>cansada</i> com a rotina de casa?
-              &#10004; <br />
-              Você percebe que se VOCÊ não planejar e dar direcionamentos claros
-              sobre as tarefas domésticas na sua casa, elas não serão feitas?
-              &#10004; <br />
-              Você sente que não consegue ter{" "}
-              <i>tempo suficiente de qualidade</i> para lazer/descanso? &#10004;{" "}
-              <br />
-              Você se sente sobrecarregada na maior parte do tempo? &#10004;{" "}
-              <br />
-              Você se sente <i>culpada</i> quando faz pausas nas atividades
-              domésticas porque está <i>sobrecarregada</i> e precisa descansar?
-              &#10004;
-            </p>
-            <h4>
-              <font size="5">
-                Se você respondeu “sim” para ao menos uma dessas perguntas, está
-                imersão é para você! <br /> Chegou a hora de entender melhor o
-                porquê de todos esses sentimentos!
-              </font>
-            </h4>
+        <Main>
+          <div className="course-test">
+            <div className="course__feature-test">
+              <h4>
+                <font size="5">
+                  <i>Mulher</i>, me responde essas perguntas:
+                </font>
+              </h4>
+              <p>
+                Você se sente constantemente <i>cansada</i> com a rotina de
+                casa? &#10004; <br />
+                Você percebe que se VOCÊ não planejar e dar direcionamentos
+                claros sobre as tarefas domésticas na sua casa, elas não serão
+                feitas? &#10004; <br />
+                Você sente que não consegue ter{" "}
+                <i>tempo suficiente de qualidade</i> para lazer/descanso?
+                &#10004; <br />
+                Você se sente sobrecarregada na maior parte do tempo? &#10004;{" "}
+                <br />
+                Você se sente <i>culpada</i> quando faz pausas nas atividades
+                domésticas porque está <i>sobrecarregada</i> e precisa
+                descansar? &#10004;
+              </p>
+              <h4>
+                <font size="5">
+                  Se você respondeu “sim” para ao menos uma dessas perguntas,
+                  está imersão é para você! <br /> Chegou a hora de entender
+                  melhor o porquê de todos esses sentimentos!
+                </font>
+              </h4>
+            </div>
           </div>
-        </div>
+        </Main>
       </section>
 
       <section id="oqueesperar">
@@ -71,8 +73,9 @@ function CargaMental() {
               <br />
               Serão disponibilizadas videoaulas ministradas por psicólogas
               pesquisadoras especialistas da área. Além disso, teremos dois
-              encontros para interação das alunas com as professoras, sendo este
-              um espaço para que as participantes possam{" "}
+              encontros para interação das alunas com a fundadora da Toda
+              Cidadã, Gabriela Toso, sendo este um espaço para que as
+              participantes possam{" "}
               <font color="#d83c23">
                 interagir, conversar, debater, questionar e compartilhar
               </font>{" "}
@@ -91,82 +94,9 @@ function CargaMental() {
               mulheres interessadas em entender mais sobre a divisão sexual do
               trabalho e seus efeitos sobre elas.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="quemplanejou">
-        <div className="course-test">
-          <div className="course__feature-test">
-            <h5>Quem planejou esse curso? </h5>
-            <h4>Gabriela Toso</h4>
-            <p>
-              Gabriela Toso é formada em Direito pela UEM (Universidade Estadual
-              de Maringá) e, atualmente, cursa especialização em Comunicação
-              Pública pela USP (Universidade de São Paulo). Já atuou em
-              organizações internacionais e realizou intercâmbio acadêmico na
-              Universidade de Pavia na Itália. Foi conselheira do CONJUVE
-              (Conselho Nacional de Juventude do Brasil) e participou de
-              pesquisas e grupos de estudos sobre Direito da Mulher e da
-              Infância e Juventude. Gabriela é fundadora e presidente da Toda
-              Cidadã.
-            </p>
-            <h4>
-              Maria Alice Centanin Bertho (
-              <a
-                href="https://www.instagram.com/marialicebertho/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @marialicebertho
-              </a>
-              )
-            </h4>
-            <p>
-              Maria Alice Centanin Bertho é Psicóloga Clínica e Mestre em
-              Psicologia (Comportamento Social e Processos Cognitivos) pela
-              UFSCar (Universidade Federal de São Carlos). Desenvolveu seu
-              mestrado no Laboratório de Análise e Prevenção da Violência
-              (LAPREV), com ênfase de pesquisa sobre as desigualdades de gênero
-              no contexto familiar. Paralelamente também é membra da Toda
-              Cidadã.
-            </p>
-            <h4>
-              Stéphani Pinho (
-              <a
-                href="https://www.instagram.com/psistephanipinho/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @psistephanipinho
-              </a>
-              ){" "}
-            </h4>
-            <p>
-              Stéphani Pinho é Psicóloga Clínica e Psicanalista. Tem formação em
-              Saúde Mental e Manejo Clínico para o Atendimento à Mulheres em
-              Situação de Violência e pós-graduação em Teoria Psicanalítica.
-              Atualmente é pós-graduanda em Docência do Ensino Superior e
-              paralelamente atua como psicóloga voluntária no Projeto Pro Preto
-              Psi. Além disso, é organizadora do Clube de Leitura Feminista,
-              mediadora do Grupo de Acolhimento Psicológico à Mulheres em
-              Condição de Abortamentos e mediadora do Grupo de Estudos em Teoria
-              Psicanalítica.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="course-test">
-          <div className="course__feature-test">
-            <p>
-              Este curso foi planejado em 5 etapas e em cada uma delas vamos te
-              apresentar conteúdos que vão te ajudar a identificar e aprender
-              sobre todos os impactos da sobrecarga mental na nossa rotina
-              diária.
-            </p>
-          </div>
+            <br />
+          </div>{" "}
+          <br />
         </div>
       </section>
 
@@ -175,6 +105,12 @@ function CargaMental() {
           <div onClick={tabbedComponent} className="courses__tab-container">
             <button
               className="btn btn-test courses__tab courses__tab--1 courses__tab--active"
+              data-tab="0"
+            >
+              Módulo 0
+            </button>
+            <button
+              className="btn btn-test courses__tab courses__tab--1 courses__tab"
               data-tab="1"
             >
               Módulo 1
@@ -210,7 +146,37 @@ function CargaMental() {
               Módulo bônus
             </button>
           </div>
-          <div className="courses__content courses__content--active courses__content--1">
+          <div className="courses__content courses__content--active courses__content--0">
+            <div>
+              <h5>A Comunidade da Imersão</h5>
+              <p>
+                <font color="#d83c23">
+                  <b>Facilitadora:</b> Maria Bertho (
+                  <a
+                    href="https://www.instagram.com/marialicebertho/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @marialicebertho
+                  </a>
+                  )
+                </font>
+              </p>
+              <p>
+                <br />
+                Os problemas que levam mulheres a estarem sobrecarregadas são
+                múltiplos e complexos. Entendemos que a melhor forma de lidar
+                com problemas complexos é pensando em soluções em conjunto: de
+                forma a trocar com outras mulheres, num espaço seguro, que
+                proporcione reflexão e tomadas de ação.
+                <br />
+                Por isso, nesse módulo inicial, falaremos sobre como se dará a
+                comunidade das alunas do curso, e como podemos criar juntas uma
+                rede de apoio!
+              </p>
+            </div>
+          </div>
+          <div className="courses__content  courses__content--1">
             <div>
               <h5>Reconhecendo a história</h5>
               <p>
@@ -331,15 +297,13 @@ function CargaMental() {
                 Contaremos com a participação da Gabi Toso para conduzir a
                 conversa entre as alunas e as psicólogas Maria Bertho e Stephani
                 Pinho, especialistas em carga mental.
-                <br /> <br />
-                Datas dos encontros: 19, 20 e 21.
               </p>
             </div>
           </div>
           <div className="courses__content courses__content--6">
             <div>
               <p>
-                Aula e roda de conversa sobre o livro: Saúde Mental, Gênero e
+                Roda de conversa sobre o livro Saúde Mental, Gênero e
                 Dispositivos: Cultura e Processos de Subjetivação, de Valeska
                 Zanello.
               </p>
@@ -348,6 +312,48 @@ function CargaMental() {
         </div>
 
         <div className="courses--mobile">
+          <div className="operations ">
+            <br /> <br />
+            <div className="operations__tab-container">
+              <button
+                type="submit"
+                className="btn btn-test btn-mobile"
+                data-tab="1"
+              >
+                Módulo 0
+              </button>
+            </div>
+            <div className="operations__content-test operations__content--1 operations__content--active">
+              <h5>A Comunidade da Imersão</h5>
+              <p>
+                <font color="#d83c23">
+                  <b>Facilitadora:</b> Maria Bertho (
+                  <a
+                    href="https://www.instagram.com/marialicebertho/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @marialicebertho
+                  </a>
+                  )
+                </font>
+              </p>
+
+              <p>
+                <br />
+                Os problemas que levam mulheres a estarem sobrecarregadas são
+                múltiplos e complexos. Entendemos que a melhor forma de lidar
+                com problemas complexos é pensando em soluções em conjunto: de
+                forma a trocar com outras mulheres, num espaço seguro, que
+                proporcione reflexão e tomadas de ação.
+                <br />
+                Por isso, nesse módulo inicial, falaremos sobre como se dará a
+                comunidade das alunas do curso, e como podemos criar juntas uma
+                rede de apoio!
+              </p>
+            </div>
+          </div>
+          <br /> <br />
           <div className="operations operations--dark">
             <br /> <br />
             <div className="operations__tab-container">
@@ -362,7 +368,7 @@ function CargaMental() {
             <div className="operations__content-test operations__content--1 operations__content--active">
               <h5>Reconhecendo a história</h5>
               <p>
-                <font color="#fcb7b7">
+                <font color="#d83c23">
                   <b>Facilitadora:</b> Maria Bertho (
                   <a
                     href="https://www.instagram.com/marialicebertho/"
@@ -442,7 +448,7 @@ function CargaMental() {
                 O impacto da sobrecarga mental para a saúde mental das mulheres
               </h5>
               <p>
-                <font color="#fcb7b7">
+                <font color="#d83c23">
                   <b>Facilitadora:</b> Maria Bertho (
                   <a
                     href="https://www.instagram.com/marialicebertho/"
@@ -525,10 +531,6 @@ function CargaMental() {
                 conversa entre as alunas e as psicólogas Maria Bertho e Stephani
                 Pinho, especialistas em carga mental.
                 <br /> <br />
-                <font color="#fcb7b7">
-                  Datas dos encontros: 19, 20 e 21.
-                </font>{" "}
-                <br />
               </p>
             </div>
           </div>
@@ -545,13 +547,99 @@ function CargaMental() {
             </div>
             <div className="operations__content-test operations__content--1 operations__content--active">
               <p>
-                Aula e roda de conversa sobre o livro: Saúde Mental, Gênero e
+                Roda de conversa sobre o livro Saúde Mental, Gênero e
                 Dispositivos: Cultura e Processos de Subjetivação, de Valeska
                 Zanello.
               </p>
             </div>
           </div>
           <br /> <br />
+        </div>
+      </section>
+
+      <section>
+        <div className="course-test">
+          <div className="course__feature-test">
+            <h5>Como vou acessar o curso?</h5>
+            <p>
+              O conteúdo é 100% digital. O acesso será enviado ao seu e-mail
+              assim que o pagamento for confirmado.
+            </p>
+            <p>
+              Após a inscrição no curso, um grupo no WhatsApp será criado para
+              combinar as datas das rodas de conversa síncronas com Gabriela
+              Toso.
+            </p>
+            <h5>Garantia de 7 dias </h5>
+            <p>
+              Você tem sete dias para conhecer o conteúdo e pedir o seu
+              reembolso, se acreditar que não é para você.{" "}
+            </p>
+            <h5>Certificado</h5>
+            <p>Ao final do curso a plataforma irá gerar seu certificado. </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="quemplanejou">
+        <div className="course-test">
+          <div className="course__feature-test">
+            <h5>Quem planejou esse curso? </h5>
+            <h4>Gabriela Toso</h4>
+            <p>
+              Gabriela Toso é formada em Direito pela UEM (Universidade Estadual
+              de Maringá) e, atualmente, cursa especialização em Comunicação
+              Pública pela USP (Universidade de São Paulo). Já atuou em
+              organizações internacionais e realizou intercâmbio acadêmico na
+              Universidade de Pavia na Itália. Foi conselheira do CONJUVE
+              (Conselho Nacional de Juventude do Brasil) e participou de
+              pesquisas e grupos de estudos sobre Direito da Mulher e da
+              Infância e Juventude. Gabriela é fundadora e presidente da Toda
+              Cidadã.
+            </p>
+            <h4>
+              Maria Alice Centanin Bertho (
+              <a
+                href="https://www.instagram.com/marialicebertho/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @marialicebertho
+              </a>
+              )
+            </h4>
+            <p>
+              Maria Alice Centanin Bertho é Psicóloga Clínica e Mestre em
+              Psicologia (Comportamento Social e Processos Cognitivos) pela
+              UFSCar (Universidade Federal de São Carlos). Desenvolveu seu
+              mestrado no Laboratório de Análise e Prevenção da Violência
+              (LAPREV), com ênfase de pesquisa sobre as desigualdades de gênero
+              no contexto familiar. Paralelamente também é membra da Toda
+              Cidadã.
+            </p>
+            <h4>
+              Stéphani Pinho (
+              <a
+                href="https://www.instagram.com/psistephanipinho/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @psistephanipinho
+              </a>
+              ){" "}
+            </h4>
+            <p>
+              Stéphani Pinho é Psicóloga Clínica e Psicanalista. Tem formação em
+              Saúde Mental e Manejo Clínico para o Atendimento à Mulheres em
+              Situação de Violência e pós-graduação em Teoria Psicanalítica.
+              Atualmente é pós-graduanda em Docência do Ensino Superior e
+              paralelamente atua como psicóloga voluntária no Projeto Pro Preto
+              Psi. Além disso, é organizadora do Clube de Leitura Feminista,
+              mediadora do Grupo de Acolhimento Psicológico à Mulheres em
+              Condição de Abortamentos e mediadora do Grupo de Estudos em Teoria
+              Psicanalítica.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -563,7 +651,7 @@ function CargaMental() {
                 className="btn--text--subscribe"
                 target="_blank"
                 rel="noreferrer"
-                href="https://hotmart.com/pt-br/marketplace/produtos/imersao-sobrecarga-feminina-no-contexto-domestico/W72614070V"
+                href="https://go.hotmart.com/W72614070V?dp=1"
               >
                 INSCREVA-SE AGORA
               </a>
@@ -632,12 +720,27 @@ function CargaMental() {
             <p>
               Contudo, o objetivo da Toda Cidadã é tornar nossos cursos
               acessíveis para que o maior número de mulheres participe! Por
-              isso, estamos disponibilizando a Imersão da sobrecarga feminina no
-              contexto doméstico por apenas
+              isso, nosso trabalho é voluntário sem visar o lucro.{" "}
+              <font color="#d83c23">
+                Todo dinheiro arrecadado é direcionado para financiamento de
+                bolsas dos nossos cursos e manutenção da nossa operação.{" "}
+              </font>
+              Por isso, o valor do curso já seria diminuído para somente R$
+              197,00.
             </p>
+            <p>
+              No entanto, sabendo das dificuldades de um ano atípico, com
+              problemas políticos que nos deixam ainda mais cansadas, resolvemos
+              fazer uma{" "}
+              <font color="#d83c23">
+                <strong>promoção de natal </strong>
+              </font>
+              (com vagas limitadas):
+            </p>
+            <p>O curso sairá de R$ 197,00 por</p>
             <h5>
               <font size="7">
-                12 parcelas de R$ 19,66* ou R$197,00 à vista!
+                12 parcelas de R$ 12,50* ou R$ 147,00 à vista!
               </font>
             </h5>
 
@@ -658,41 +761,7 @@ function CargaMental() {
                 className="btn--text--subscribe"
                 target="_blank"
                 rel="noreferrer"
-                href="https://hotmart.com/pt-br/marketplace/produtos/imersao-sobrecarga-feminina-no-contexto-domestico/W72614070V"
-              >
-                INSCREVA-SE AGORA
-              </a>
-            </h5>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="course-test">
-          <div className="course__feature-test">
-            <h5>Como vou acessar o curso?</h5>
-            <p>
-              O conteúdo é 100% digital. O acesso será enviado ao seu e-mail
-              assim que o pagamento for confirmado.
-            </p>
-            <h5>Garantia de 7 dias </h5>
-            <p>
-              Você tem sete dias para conhecer o conteúdo e pedir o seu
-              reembolso, se acreditar que não é para você.{" "}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="subscribe">
-        <div className="course-test">
-          <div className="course__feature-test">
-            <h5>
-              <a
-                className="btn--text--subscribe"
-                target="_blank"
-                rel="noreferrer"
-                href="https://hotmart.com/pt-br/marketplace/produtos/imersao-sobrecarga-feminina-no-contexto-domestico/W72614070V"
+                href="https://go.hotmart.com/W72614070V?dp=1"
               >
                 INSCREVA-SE AGORA
               </a>

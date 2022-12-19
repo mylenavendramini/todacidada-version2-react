@@ -77,7 +77,7 @@ body {
 .btn-test {
   background-color: var(--color-primary);
   border-radius: 0.6rem;
-  color: white;
+  color: black;
   font-size: 1.8rem;
 }
 
@@ -182,7 +182,9 @@ h5 {
 .course-test {
   display: flex;
   flex-direction: column;
+
   margin: auto 2rem;
+
   padding: 2rem 0rem;
 }
 
@@ -676,7 +678,7 @@ hr {
   display: none;
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1200px) {
   .courses--mobile {
     display: block;
     /* grid-template-rows: 1fr 1fr; */
@@ -800,7 +802,7 @@ hr {
 }
 
 .operations--dark {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
 }
 
 .operations--light {
@@ -808,7 +810,8 @@ hr {
 }
 
 .operations button {
-  color: white;
+  color: black;
+  background-color: var(--color-primary);
 }
 
 .operations__tab-container {
@@ -940,8 +943,9 @@ hr {
 
 .operations__content-test h5 {
   text-transform: uppercase;
-  color: black;
+  color: #d83c23;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .operations__content-test p {

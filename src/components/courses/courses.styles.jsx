@@ -58,7 +58,7 @@ export const CoursesDesktopTitle = styled.div`
 
   h5 {
     text-transform: uppercase;
-    color: black;
+    color: #d83c23;
     font-size: 2.5rem;
     letter-spacing: 3px;
     text-align: center;

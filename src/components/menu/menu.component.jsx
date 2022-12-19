@@ -18,7 +18,7 @@ const Menu = ({ isBurgerOpen }) => {
           />
         </a>
         <a href="/quemsomos">Quem somos</a>
-        <a href="/cargamental">Nossos cursos</a>
+        <a href="/cursos">Nossos cursos</a>
         <a href="/contato">Contato</a>
       </StyledMenu>
     </Fragment>
