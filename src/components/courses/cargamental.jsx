@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Header, Main } from "./cargamental.styles";
+import { Header } from "./cargamental.styles";
 
 function CargaMental() {
   function tabbedComponent(e) {
@@ -26,39 +26,37 @@ function CargaMental() {
       </Header>
 
       <section>
-        <Main>
-          <div className="course-test">
-            <div className="course__feature-test">
-              <h4>
-                <font size="5">
-                  <i>Mulher</i>, me responde essas perguntas:
-                </font>
-              </h4>
-              <p>
-                Você se sente constantemente <i>cansada</i> com a rotina de
-                casa? &#10004; <br />
-                Você percebe que se VOCÊ não planejar e dar direcionamentos
-                claros sobre as tarefas domésticas na sua casa, elas não serão
-                feitas? &#10004; <br />
-                Você sente que não consegue ter{" "}
-                <i>tempo suficiente de qualidade</i> para lazer/descanso?
-                &#10004; <br />
-                Você se sente sobrecarregada na maior parte do tempo? &#10004;{" "}
-                <br />
-                Você se sente <i>culpada</i> quando faz pausas nas atividades
-                domésticas porque está <i>sobrecarregada</i> e precisa
-                descansar? &#10004;
-              </p>
-              <h4>
-                <font size="5">
-                  Se você respondeu “sim” para ao menos uma dessas perguntas,
-                  está imersão é para você! <br /> Chegou a hora de entender
-                  melhor o porquê de todos esses sentimentos!
-                </font>
-              </h4>
-            </div>
+        <div className="course-test">
+          <div className="course__feature-test">
+            <h4>
+              <font size="5">
+                <i>Mulher</i>, me responde essas perguntas:
+              </font>
+            </h4>
+            <p>
+              Você se sente constantemente <i>cansada</i> com a rotina de casa?
+              &#10004; <br />
+              Você percebe que se VOCÊ não planejar e dar direcionamentos claros
+              sobre as tarefas domésticas na sua casa, elas não serão feitas?
+              &#10004; <br />
+              Você sente que não consegue ter{" "}
+              <i>tempo suficiente de qualidade</i> para lazer/descanso? &#10004;{" "}
+              <br />
+              Você se sente sobrecarregada na maior parte do tempo? &#10004;{" "}
+              <br />
+              Você se sente <i>culpada</i> quando faz pausas nas atividades
+              domésticas porque está <i>sobrecarregada</i> e precisa descansar?
+              &#10004;
+            </p>
+            <h4>
+              <font size="5">
+                Se você respondeu “sim” para ao menos uma dessas perguntas, está
+                imersão é para você! <br /> Chegou a hora de entender melhor o
+                porquê de todos esses sentimentos!
+              </font>
+            </h4>
           </div>
-        </Main>
+        </div>
       </section>
 
       <section id="oqueesperar">

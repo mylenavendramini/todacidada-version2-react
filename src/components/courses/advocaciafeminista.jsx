@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Header, Main } from "./cargamental.styles";
+import { Header } from "./cargamental.styles";
 
 function AdvocaciaFeminista() {
   function tabbedComponent(e) {
@@ -26,30 +26,28 @@ function AdvocaciaFeminista() {
       </Header>
 
       <section>
-        <Main>
-          <div className="course-test">
-            <div className="course__feature-test">
-              <p>
-                Gostaria de entender a advocacia pela perspectiva do feminismo?{" "}
-                <br />
-                Acredita que o judiciário brasileiro precisa ser mais
-                representativo?
-                <br />
-                Quer ter um olhar mais crítico sobre o ordenamento e as questões
-                de gênero?
-                <br />
-                Gostaria de poder debater e construir o conhecimento com outras
-                mulheres?
-              </p>
-              <h4>
-                <font size="5">
-                  Chegou a hora de aprender tudo isso! <br /> Esse curso é para
-                  você!
-                </font>
-              </h4>
-            </div>
+        <div className="course-test">
+          <div className="course__feature-test">
+            <p>
+              Gostaria de entender a advocacia pela perspectiva do feminismo?{" "}
+              <br />
+              Acredita que o judiciário brasileiro precisa ser mais
+              representativo?
+              <br />
+              Quer ter um olhar mais crítico sobre o ordenamento e as questões
+              de gênero?
+              <br />
+              Gostaria de poder debater e construir o conhecimento com outras
+              mulheres?
+            </p>
+            <h4>
+              <font size="5">
+                Chegou a hora de aprender tudo isso! <br /> Esse curso é para
+                você!
+              </font>
+            </h4>
           </div>
-        </Main>
+        </div>
       </section>
 
       <section id="oqueesperar">
