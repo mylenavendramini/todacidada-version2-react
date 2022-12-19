@@ -76,6 +76,7 @@ function AdvocaciaFeminista() {
               da legítima defesa da honra, como a questão de gênero opera nas
               relações de trabalho, adoção e perda do poder familiar e tantos
               outros temas relevantes.
+              <br />
               <br />O curso visa tornar a prática do direito mais próxima às
               demandas de justiça de gênero, ao mesmo tempo em que propõe um
               olhar crítico ao ordenamento jurídico brasileiro na perspectiva
@@ -112,6 +113,24 @@ function AdvocaciaFeminista() {
             <br />
           </div>
         </div>
+      </section>
+
+      <section id="subscribe">
+        <div className="course-test">
+          <div className="course__feature-test">
+            <h5>
+              <a
+                className="btn--text--subscribe"
+                target="_blank"
+                rel="noreferrer"
+                href="https://go.hotmart.com/Q68651321L?dp=1"
+              >
+                INSCREVA-SE AGORA
+              </a>
+            </h5>
+          </div>
+        </div>
+        <div className="white-space"></div>
       </section>
 
       <section id="modules">
@@ -398,7 +417,6 @@ function AdvocaciaFeminista() {
             </div>
           </div>
         </div>
-
         <div className="courses--mobile">
           <div className="operations operations--dark">
             <br /> <br />

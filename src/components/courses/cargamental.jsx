@@ -98,6 +98,24 @@ function CargaMental() {
         </div>
       </section>
 
+      <section id="subscribe">
+        <div className="course-test">
+          <div className="course__feature-test">
+            <h5>
+              <a
+                className="btn--text--subscribe"
+                target="_blank"
+                rel="noreferrer"
+                href="https://go.hotmart.com/Q68651321L?dp=1"
+              >
+                INSCREVA-SE AGORA
+              </a>
+            </h5>
+          </div>
+        </div>
+        <div className="white-space"></div>
+      </section>
+
       <section id="modules">
         <div className="modules-test">
           <div onClick={tabbedComponent} className="courses__tab-container">
