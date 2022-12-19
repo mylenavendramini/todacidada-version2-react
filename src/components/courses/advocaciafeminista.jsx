@@ -95,16 +95,16 @@ function AdvocaciaFeminista() {
             <p>
               Para quem se incomoda com as desigualdades de gênero no ambiente
               jurídico.
-              <br />
+              <br /> <br />
               Para quem gostaria de entender mais sobre como ter uma atuação
               feminista dentro do Direito.
-              <br />
+              <br /> <br />
               Para quem gostaria de respaldar o conhecimento para que suas teses
               jurídicas tenham um olhar para as questões de gênero.
-              <br />
+              <br /> <br />
               Para quem quer entender quais ferramentas o Direito usa para
               oprimir mulheres.
-              <br />
+              <br /> <br />
               Para quem quer entender como superar essas ferramentas dentro da
               atuação da advocacia, nas áreas de Penal e Processo Penal,
               Família, Infância e Juventude e Trabalho.
